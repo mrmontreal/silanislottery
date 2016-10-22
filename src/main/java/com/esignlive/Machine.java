@@ -173,9 +173,8 @@ public class Machine {
 			if (drawBallsList.size() == 0) {
 				winnerList = new String[DRAW_TIMES];
 				// 2. generate drawn balls number at random
-				//this.drawBallsList = LotteryTools.randomCommon(LOTTERY_BALL_SIZE, DRAW_TIMES);
-				 this.drawBallsList = LotteryTools.randomCommon(5,
-				 DRAW_TIMES);
+				this.drawBallsList = LotteryTools.randomCommon(LOTTERY_BALL_SIZE, DRAW_TIMES);
+				 //this.drawBallsList = LotteryTools.randomCommon(5,DRAW_TIMES);
 				// show draw numbers
 				for (Integer i : drawBallsList) {
 					screen.setContent("Draw Number is: " + i);
