@@ -9,7 +9,7 @@ import java.util.Collections;
  * list
  * 
  * @author Xiao Su (fuzii@live.com)
- * @version 1.0
+ * @version 1.2
  */
 public class Machine {
 
